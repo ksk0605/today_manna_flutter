@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:today_manna_flutter/screens/homepage.dart';
+import 'package:today_manna_flutter/screens/checklist_page.dart';
+import 'package:today_manna_flutter/screens/home_page.dart';
 
 class MannaNavigation extends StatefulWidget {
   const MannaNavigation({super.key});
@@ -25,7 +26,8 @@ class _MannaNavigationState extends State<MannaNavigation> {
         children: [
           HomePage(),
           Center(child: Text("맥체인 페이지")),
-          Center(child: Text("체크리스트 페이지")),
+          //Center(child: Text("맥체인 페이지")),
+          ChecklistPage(),
           Center(child: Text("메모 페이지")),
         ],
       ),
